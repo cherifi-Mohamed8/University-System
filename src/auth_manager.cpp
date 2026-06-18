@@ -91,7 +91,7 @@ std::string AuthManager::doRegister() {
     
     std::string id, password, confirmPassword;
     std::cout << "\n--- New Student Registration ---\n";
-    std::cout << "Enter custom or generated Student ID: ";
+    std::cout << "Enter custom or generated Student ID (12 digits : [Year of BAC] + your distinct 8 digit code): ";
     std::cin >> id;
 
     if (idExists(id)) {
